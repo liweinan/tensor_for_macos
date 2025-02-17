@@ -57,3 +57,11 @@ run the test script:
 ❯ python test.py
 ```
 
+training process:
+
+<img width="1512" alt="1361739788314_ pic" src="https://github.com/user-attachments/assets/11ef8cac-6540-4d8f-9084-e20c3b10faed" />
+
+<img width="800" alt="1351739788303_ pic" src="https://github.com/user-attachments/assets/9001ec0e-7d89-4c7d-92f2-312e91623144" />
+
+
+

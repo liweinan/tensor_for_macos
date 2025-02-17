@@ -16,7 +16,7 @@ bash ~/miniconda.sh -b -p $HOME/miniconda
 install the env:
 
 ```bash
-❯ conda env create -f env.yml                                                                                                                                     (base) 18:07:18
+❯ conda env create -f env.yml
 ```
 
 init the conda:
@@ -24,6 +24,8 @@ init the conda:
 ```bash
 ❯ ~/miniconda/bin/conda init
 ```
+
+if you are using fish:
 
 ```bash
 ❯ ~/miniconda/bin/conda init fish
@@ -38,17 +40,10 @@ $ conda activate my_env
 install the tensorflow:
 
 - [Tensorflow Plugin - Metal - Apple Developer](https://developer.apple.com/metal/tensorflow-plugin/)
-
-install the tensorflow:
-
 - [Installing with conda — conda 25.1.1 documentation](https://docs.conda.io/projects/conda/en/stable/user-guide/concepts/installing-with-conda.html)
 
 ```bash
 $ conda install tensorflow
-```
-
-```bash
-$ conda install tensorflow-macos
 ```
 
 run the test script:

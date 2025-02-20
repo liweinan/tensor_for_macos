@@ -64,6 +64,8 @@ to update the deps:
 ► conda env update -f env.yml
 ```
 
+<img width="828" alt="image" src="https://github.com/user-attachments/assets/8d91ca84-429a-4475-ac20-94755797ff27" />
+
 to install the `transformers` on the ARM chip based Apple computer, you need to install Rust `x86` firstly:
 
 ```bash
@@ -73,4 +75,7 @@ info: installing component 'rust-std' for 'x86_64-apple-darwin'
  27.8 MiB /  27.8 MiB (100 %)  25.7 MiB/s in  1s ETA:  0s
 ```
 
+Or you will meet this problem:
+
+<img width="1382" alt="image" src="https://github.com/user-attachments/assets/efdeaf5d-c07a-4165-b27d-b66054ebe6ab" />
 

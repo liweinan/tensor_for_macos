@@ -58,5 +58,19 @@ training process:
 
 <img width="800" alt="1351739788303_ pic" src="https://github.com/user-attachments/assets/9001ec0e-7d89-4c7d-92f2-312e91623144" />
 
+to update the deps:
+
+```bash
+► conda env update -f env.yml
+```
+
+to install the `transformers` on the ARM chip based Apple computer, you need to install Rust `x86` firstly:
+
+```bash
+❯ rustup target add x86_64-apple-darwin                                                                                                                         (my_env) 10:37:34
+info: downloading component 'rust-std' for 'x86_64-apple-darwin'
+info: installing component 'rust-std' for 'x86_64-apple-darwin'
+ 27.8 MiB /  27.8 MiB (100 %)  25.7 MiB/s in  1s ETA:  0s
+```
 
 

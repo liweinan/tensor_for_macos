@@ -16,7 +16,7 @@ bash ~/miniconda.sh -b -p $HOME/miniconda
 install the env:
 
 ```bash
-❯ conda env create -f env.yml
+❯ conda env create -f environment.yml
 ```
 
 init the conda:
@@ -61,7 +61,7 @@ training process:
 to update the deps:
 
 ```bash
-► conda env update -f env.yml
+► conda env update -f environment.yml
 ```
 
 <img width="828" alt="image" src="https://github.com/user-attachments/assets/8d91ca84-429a-4475-ac20-94755797ff27" />
